@@ -10,7 +10,6 @@ from api import GoveeClient
 from colors import *
 
 MONITOR_LIGHT = '61:40:D2:39:32:37:2D:73'
-IP = "10.0.0.176"
 client = GoveeClient()
 logging.basicConfig(level=logging.INFO)
 
